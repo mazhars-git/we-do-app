@@ -1,4 +1,5 @@
 import React from 'react';
+import SwiperReact from '../SwiperReact/SwiperReact';
 
 const Project = () => {
     return (
@@ -13,7 +14,7 @@ const Project = () => {
             </div>
             <p>THINGS WE'VE MADE</p>
             
-       
+            <SwiperReact />
 
         </section>
     );
