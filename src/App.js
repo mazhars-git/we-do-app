@@ -8,30 +8,34 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import Home from './Components/Home/Home/Home';
+import Service from './Components/Home/Service/Service';
+import Project from './Components/Home/Project/Project';
+import About from './Components/Home/About/About';
+// import SwiperReact from './Components/Home/SwiperReact/SwiperReact';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-          <FontAwesomeIcon icon={faCoffee} />
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+            <Home />
+        </Route>
+        <Route path="/services">
+            <Service />
+        </Route>
+        <Route path="/works">
+            <Project />
+        </Route>
+        <Route path="/about">
+            <About />
+        </Route>
+        {/* <Route path="/swiper">
+            <SwiperReact />
+        </Route> */}
+      </Switch>
+    </Router>
   );
 }
 

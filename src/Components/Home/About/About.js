@@ -2,9 +2,11 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
-            
-        </div>
+        <section className="container py-5">
+            <div className="row">
+                
+            </div>
+        </section>
     );
 };
 

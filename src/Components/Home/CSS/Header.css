@@ -1,0 +1,29 @@
+.header-area{
+    background-image: url('../../../images/img/hero_02.jpg');
+    background-repeat: no-repeat;
+    background-position: right;  
+    background-size: cover;
+}
+.btn-brand{
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 1px solid red;
+}
+.btn-brand:hover{
+    background: gray;
+    border: 1px solid #fff;
+}
+
+.content-box{
+    padding: 50px 55px;
+    background-color: #1b1b1b;
+}
+.content-box:hover{
+    background: red;
+}
+.content-box .box-icon{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
