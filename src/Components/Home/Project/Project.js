@@ -6,13 +6,15 @@ const Project = () => {
         <section className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h1>Works.</h1>
+                    <h1 className="brand-heading border-style">Works.</h1>
                 </div>
-                <div className="col-md-6 d-flex justify-content-end">
-                    <button className="btn-brand text-black">View All</button>
+                <div className="col-md-6 d-flex justify-content-end align-self-center">
+                   <div >
+                        <button className="btn-brand text-black">View All</button>
+                   </div>
                 </div>
             </div>
-            <p>THINGS WE'VE MADE</p>
+            <p className="brand-text">THINGS WE'VE MADE</p>
             
             <SwiperReact />
 

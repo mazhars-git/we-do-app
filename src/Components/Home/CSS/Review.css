@@ -1,0 +1,27 @@
+
+.review-image{
+    position: relative;
+}
+
+.shape{
+    position: absolute;
+    right: 8px;
+    bottom: -20px;
+    background-color: #e9204f;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
+
+.img-box{
+    margin-right: 20px;
+}
+
+.client-name{
+    margin-top: 20%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.review-content{
+    margin-left: 15px;
+}

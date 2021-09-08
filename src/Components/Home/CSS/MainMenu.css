@@ -1,3 +1,17 @@
+  
+  .main-menu li a{
+    color: #fff !important;
+    font-weight: 600;
+    transition: 0.3s ease;
+    position: relative;
+  }
+  .main-menu li a:hover::after{
+    content: '';
+    display: block;
+    background-color: red;
+    width: 25px;
+    height: 2px;
+  }
   .search-box{
     vertical-align: middle;
     white-space: nowrap;
@@ -7,7 +21,7 @@
   .search-box input#search{
     width: 50px;
     height: 50px;
-    background: #2b303b;
+    background: #07070780;
     border: none;
     font-size: 10pt;
     float: left;

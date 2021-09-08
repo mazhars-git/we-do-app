@@ -14,6 +14,8 @@ import About from './Components/Home/About/About';
 import SwiperReact from './Components/Home/SwiperReact/SwiperReact';
 import Review from './Components/Home/Review/Review';
 import News from './Components/Home/News/News';
+import NewsSlider from './Components/NewsSlider/NewsSlider';
+
 
 
 function App() {
@@ -40,6 +42,9 @@ function App() {
         </Route>
         <Route path="/swiper">
             <SwiperReact />
+        </Route>
+        <Route path="/newsSlider">
+            <NewsSlider />
         </Route>
       </Switch>
     </Router>

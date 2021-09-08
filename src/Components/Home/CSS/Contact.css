@@ -1,0 +1,22 @@
+.contact-top{
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.contact-bottom{
+    background-color: #161616;
+    color: #fff;
+}
+.social-icon{
+    margin: 0;
+    padding: 0;
+}
+.social-icon li{
+    margin-left: 8px;
+}
+.social-icon li a{
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 11px;
+}

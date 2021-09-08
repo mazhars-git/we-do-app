@@ -35,8 +35,8 @@ const Service = () => {
 
     return (
         <section className="container py-5">
-            <h1>Services.</h1>
-            <h5>WE WORK WITH YOU, NOT FOR YOU.</h5>
+            <h1 className="brand-heading border-style">Services.</h1>
+            <p className="brand-text">WE WORK WITH YOU, NOT FOR YOU.</p>
             <div className="row service-box">
                 {
                     serviceInfos.map(info => <ServiceContent info={info}></ServiceContent>)

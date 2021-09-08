@@ -12,9 +12,6 @@ import 'swiper/swiper-bundle.min.css';
 
 
 
-// import "swiper/css";
-// import "swiper/css/pagination";
-
 import SwiperCore, {
     Pagination
   } from 'swiper';
@@ -26,19 +23,52 @@ const SwiperReact = () => {
     return (
         <div className="container py-5">
             <>
-                <Swiper slidesPerView={3} spaceBetween={30} pagination={{
-                "clickable": true
-                }} className="mySwiper">
-                <SwiperSlide><img className="img-fluid" src={slide_1} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_2} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_3} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_4} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_5} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_2} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_5} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_4} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slide_3} alt="" /></SwiperSlide>
+                <Swiper 
+                    slidesPerView={3} 
+                    spaceBetween={30} 
+                    autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                        }} pagination={{
+                        "clickable": true
+                      }} navigation={true} className="mySwiper"
+                >
+
+                    <SwiperSlide><img className="img-fluid" src={slide_1} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_3} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_4} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_5} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_2} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_5} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_4} alt="" /></SwiperSlide>
+                    <SwiperSlide><img className="img-fluid" src={slide_3} alt="" /></SwiperSlide>
+
                 </Swiper>
+
+
+                <>
+                    <Swiper slidesPerView={3} spaceBetween={30} centeredSlides={true} 
+                        autoplay={{
+                    "delay": 3000,
+                    "disableOnInteraction": false
+                    }} pagination={{
+                    "clickable": true
+                    }} navigation={true} className="mySwiper">
+
+                    <SwiperSlide>Slide 1</SwiperSlide>
+                    <SwiperSlide>Slide 2</SwiperSlide>
+                    <SwiperSlide>Slide 3</SwiperSlide>
+                    <SwiperSlide>Slide 4</SwiperSlide>
+                    <SwiperSlide>Slide 5</SwiperSlide>
+                    <SwiperSlide>Slide 6</SwiperSlide>
+                    <SwiperSlide>Slide 7</SwiperSlide>
+                    <SwiperSlide>Slide 8</SwiperSlide>
+                    <SwiperSlide>Slide 9</SwiperSlide>
+                    </Swiper>
+                </>
+            
+            
             </>
            
         </div>
