@@ -18,13 +18,13 @@ const MainMenu = () => {
                                 <a class="nav-link" href="/home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Service</a>
+                                <a class="nav-link" href="#service">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Works</a>
+                                <a class="nav-link" href="#works">Works</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Clients</a>
@@ -33,7 +33,7 @@ const MainMenu = () => {
                                 <a class="nav-link" href="#">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                         

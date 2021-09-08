@@ -1,9 +1,9 @@
 import React from 'react';
 import SwiperReact from '../SwiperReact/SwiperReact';
 
-const Project = () => {
+const Works = () => {
     return (
-        <section className="container">
+        <section className="container" id="works">
             <div className="row">
                 <div className="col-md-6">
                     <h1 className="brand-heading border-style">Works.</h1>
@@ -18,8 +18,10 @@ const Project = () => {
             
             <SwiperReact />
 
+            <div className="border-st-bottom"></div>
+
         </section>
     );
 };
 
-export default Project;
+export default Works;

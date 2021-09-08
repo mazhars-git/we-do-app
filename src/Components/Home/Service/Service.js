@@ -34,7 +34,7 @@ const Service = () => {
     ]
 
     return (
-        <section className="container py-5">
+        <section className="container py-5" id="service">
             <h1 className="brand-heading border-style">Services.</h1>
             <p className="brand-text">WE WORK WITH YOU, NOT FOR YOU.</p>
             <div className="row service-box">
@@ -42,9 +42,7 @@ const Service = () => {
                     serviceInfos.map(info => <ServiceContent info={info}></ServiceContent>)
                 }
             </div>
-            <div className="service-bottom">
-
-            </div>
+            <div className="border-st-bottom"></div>
         </section>
     );
 };

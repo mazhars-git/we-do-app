@@ -6,7 +6,8 @@ import '../CSS/About.css';
 
 const About = () => {
     return (
-        <section className="container py-5">
+        <section id="about">
+            <div className="container py-5">
                 <div className="row">
                     <div className="col-md-5">
                         <h1 className="brand-heading border-style">About.</h1>
@@ -67,6 +68,9 @@ const About = () => {
                         </p>
                     </div>
                 </div>
+            </div>     
+            
+            <div className="border-st-bottom"></div>
         </section>
     );
 };

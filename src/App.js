@@ -9,12 +9,12 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
 import Service from './Components/Home/Service/Service';
-import Project from './Components/Home/Project/Project';
 import About from './Components/Home/About/About';
 import SwiperReact from './Components/Home/SwiperReact/SwiperReact';
 import Review from './Components/Home/Review/Review';
 import News from './Components/Home/News/News';
-import NewsSlider from './Components/NewsSlider/NewsSlider';
+import NewsSlider from './Components/Home/NewsSlider/NewsSlider';
+import Works from './Components/Home/Works/Works';
 
 
 
@@ -25,11 +25,14 @@ function App() {
         <Route exact path="/">
             <Home />
         </Route>
+        <Route path="/home">
+            <Home />
+        </Route>
         <Route path="/services">
             <Service />
         </Route>
         <Route path="/works">
-            <Project />
+            <Works />
         </Route>
         <Route path="/about">
             <About />

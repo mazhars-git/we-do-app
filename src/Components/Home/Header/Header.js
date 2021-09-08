@@ -15,14 +15,14 @@ const Header = () => {
                 </div>
             
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 pb-3">
                         <div className="content-box">
                             <FontAwesomeIcon className="box-icon" icon={faSearchDollar} />
                             <h3>Future Vision.</h3>
                             <p>It is long establish fact that a reader will be distracted by the readable content of a page.</p>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 pb-3">
                         <div className="content-box">
                         <FontAwesomeIcon className="box-icon" icon={faRocket} />
                         <h3>Product Design.</h3>
