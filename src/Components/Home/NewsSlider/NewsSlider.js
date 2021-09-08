@@ -28,16 +28,16 @@ const NewsSlider = () => {
                         <div class="carousel-item active" data-bs-interval="10000">
                             <img src={sliderImage_1} class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <h5 className="text-white">CAREER/MARKETING</h5>
+                                <p>How to become a best sell marketer in a year</p>
                             </div>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="2000">
                             <img src={sliderImage_2} class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
+                                <h5>CAREERS</h5>
+                                <p>Winnings tactics for a new digital agency</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -50,8 +50,8 @@ const NewsSlider = () => {
                         <div class="carousel-item">
                             <img src={sliderImage_4} class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
+                                <h5>DESIGN/UX</h5>
+                                <p>How to drive your customer experience</p>
                             </div>
                         </div>
                         <div class="carousel-item">
