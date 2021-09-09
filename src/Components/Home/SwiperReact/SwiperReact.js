@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Scrollbar, A11y } from 'swiper';
+import { Navigation, Scrollbar, A11y} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import slide_1 from '../../../images/work slider/02-min-1-1024x683.jpg';
 import slide_2 from '../../../images/work slider/03-min-1-1024x683.jpg';
@@ -10,16 +10,15 @@ import slide_5 from '../../../images/work slider/07-min-1024x683.jpg';
 // Import Swiper styles
 import 'swiper/swiper-bundle.min.css';
 
-
-
 import SwiperCore, {
-    Pagination
+    Pagination, Autoplay
   } from 'swiper';
   
   // install Swiper modules
-  SwiperCore.use([Pagination]);
+  SwiperCore.use([Pagination, Autoplay]);
 
 const SwiperReact = () => {
+    
     return (
         <div className="container py-5">
             <>
@@ -27,7 +26,7 @@ const SwiperReact = () => {
                     slidesPerView={3} 
                     spaceBetween={30} 
                     autoplay={{
-                        "delay": 2500,
+                        "delay": 3000,
                         "disableOnInteraction": false
                         }} pagination={{
                         "clickable": true
@@ -39,10 +38,6 @@ const SwiperReact = () => {
                     <SwiperSlide><img className="img-fluid" src={slide_3} alt="" /></SwiperSlide>
                     <SwiperSlide><img className="img-fluid" src={slide_4} alt="" /></SwiperSlide>
                     <SwiperSlide><img className="img-fluid" src={slide_5} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className="img-fluid" src={slide_2} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className="img-fluid" src={slide_5} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className="img-fluid" src={slide_4} alt="" /></SwiperSlide>
-                    <SwiperSlide><img className="img-fluid" src={slide_3} alt="" /></SwiperSlide>
 
                 </Swiper>
             </>

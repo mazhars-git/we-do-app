@@ -8,7 +8,7 @@ const News = () => {
             <p className="brand-text text-center">Check Out some of Our Thinking</p>
 
             <div className="w-75 m-auto">
-             <NewsSlider />
+                <NewsSlider />
             </div>
 
         </section>
