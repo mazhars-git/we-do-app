@@ -6,6 +6,7 @@ import slImage_3 from '../../../images/news slider/03-min.jpg';
 import slImage_4 from '../../../images/news slider/04-min.jpg';
 import slImage_5 from '../../../images/news slider/05-min.jpg';
 import slImage_6 from '../../../images/news slider/06-min.jpg';
+import '../CSS/Swiper.css';
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.min.css';
@@ -20,7 +21,7 @@ import SwiperCore, {
 const NewsSlider = () => {
 
     return (
-        <section className="container-fluid">
+        <section className="container-fluid swiper-style">
             <Swiper 
                 slidesPerView={3} 
                 spaceBetween={30} 
@@ -31,30 +32,29 @@ const NewsSlider = () => {
                     "clickable": true
                 }}
             >
-
-                <SwiperSlide><img className="img-fluid" src={slImage_2} alt="" />
+                <SwiperSlide><img className="img-fluid pb-5" src={slImage_2} alt="" />
                     <div class="carousel-caption d-none d-md-block">
                         <h6 className="text-white">CAREER/MARKETING</h6>
                         <p>How to become a best sell marketer in a year</p>
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide><img className="img-fluid" src={slImage_1} alt="" />
+                <SwiperSlide><img className="img-fluid pb-5" src={slImage_1} alt="" />
                     <div class="carousel-caption d-none d-md-block">
                         <h6>CAREERS</h6>
                         <p>Winnings tactics for a new digital agency</p>
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide><img className="img-fluid" src={slImage_3} alt="" />
+                <SwiperSlide><img className="img-fluid pb-5" src={slImage_3} alt="" />
                     <div class="carousel-caption d-none d-md-block">
                         <h6>DESIGN/UX</h6>
                         <p>How to drive your customer experience</p>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slImage_4} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slImage_5} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="img-fluid" src={slImage_6} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="img-fluid pb-5" src={slImage_4} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="img-fluid pb-5" src={slImage_5} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="img-fluid pb-5" src={slImage_6} alt="" /></SwiperSlide>
 
             </Swiper>
               

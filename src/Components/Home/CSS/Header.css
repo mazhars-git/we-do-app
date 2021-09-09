@@ -26,18 +26,6 @@
     margin-bottom: 50px;
 }
 
-.btn-brand{
-    background: none;
-    color: #fff;
-    font-weight: 600;
-    padding: 10px 30px;
-    border: 1px solid #e9204f;
-}
-.btn-brand:hover{
-    background: gray;
-    border: 1px solid #fff;
-}
-
 .content-box{
     padding: 45px;
     background-color: #1b1b1b;

@@ -5,7 +5,7 @@ import '../CSS/Contact.css';
 
 const Contact = () => {
     return (
-        <section className="pt-5 text-center" id="contact">
+        <section className="text-center" id="contact">
             <div className="contact-top">
                 <div className="container py-4">
                     <div className="row py-5">

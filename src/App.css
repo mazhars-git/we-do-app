@@ -19,3 +19,15 @@ a{
   color: #e9204f;
 }
 
+.btn-brand{
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 1px solid #e9204f;
+}
+.btn-brand:hover{
+    background: rgb(206, 165, 165);
+    border: 1px solid #fff;
+}
+
