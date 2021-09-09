@@ -20,7 +20,7 @@ import SwiperCore, {
 const SwiperReact = () => {
     
     return (
-        <div className="container py-5">
+        <div className="container-fluid py-5">
             <>
                 <Swiper 
                     slidesPerView={3} 

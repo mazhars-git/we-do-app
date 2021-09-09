@@ -20,7 +20,7 @@ import SwiperCore, {
 const NewsSlider = () => {
 
     return (
-        <section className="container">
+        <section className="container-fluid">
             <Swiper 
                 slidesPerView={3} 
                 spaceBetween={30} 
